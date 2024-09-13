@@ -1,6 +1,7 @@
-body{
-    background-color: rgb(218, 218, 157);
-    font-family: "Dancing Script", cursive;
+body {
+    background-color: #1D4221;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,17 +9,18 @@ body{
     margin: 0;
 }
 
-button{
-    background-color: gray;
-    font-family: "Dancing Script", cursive;
+button {
+    background-color: #64A712;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
-passo {
+.passo {
     display: none;
 }
 
 .passo.ativo {
-    display:block;
+    display: block;
 }
 
 main {
